@@ -22,7 +22,12 @@ Each port is scanned in a separate thread to significantly improve performance c
 
 ---
 
+
 ## Usage
 
+Basic scan:
 ```bash
-python scanner.py
+python scanner.py 127.0.0.1
+
+Custom port range and timeout: python scanner.py 192.168.1.1 -s 1 -e 500 -t 0.3
+
