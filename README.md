@@ -1,3 +1,7 @@
+## Author
+**Miltos** – Pentester, Programmer, Hacker Enthusiast
+
+
 # Python Port Scanner
 
 A fast, lightweight, multithreaded TCP port scanner written in Python.  
