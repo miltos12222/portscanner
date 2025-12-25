@@ -1,26 +1,28 @@
-\# Python Port Scanner
+# Python Port Scanner
 
+A fast, lightweight, multithreaded TCP port scanner written in Python.  
+Designed for learning purposes, internal network auditing, and basic penetration testing workflows.
 
+---
 
-Fast multithreaded TCP port scanner written in Python.
+## Features
 
+- Multithreaded TCP port scanning
+- Scans common ports (20–1024)
+- Uses Python sockets (no external libraries)
+- Simple and readable codebase
+- Cross-platform (Windows / Linux / macOS)
 
+---
 
-\## Features
+## How It Works
 
-\- Scans ports 20–1024
+The scanner attempts to establish TCP connections to target ports using Python's `socket` module.  
+Each port is scanned in a separate thread to significantly improve performance compared to sequential scanning.
 
-\- Uses multithreading for speed
+---
 
-\- Socket-based scanning
-
-
-
-\## Usage
+## Usage
 
 ```bash
-
 python scanner.py
-
-
-
